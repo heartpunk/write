@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "minitest-rails" # to keep things simple.
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
