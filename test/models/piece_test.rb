@@ -14,6 +14,6 @@ describe Piece do
     assert_respond_to @piece, :add_revision
     old_length = @piece.revisions.length
     @piece.add_revision "foo"
-    assert(old_length + 1, @piece.revisions.length)
+    assert_equal(old_length + 1, @piece.revisions.length)
   end
 end

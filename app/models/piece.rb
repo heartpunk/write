@@ -6,5 +6,6 @@ class Piece
   end
 
   def add_revision revision
+    revisions << revision
   end
 end
